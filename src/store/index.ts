@@ -5,6 +5,7 @@ import { persistReducer, persistStore } from 'redux-persist';
 
 
 import { baseQueryApi } from './baseQueryApi';
+import { authReducer } from '../features/Auth/slice/authSlice';
 
 
 
@@ -16,7 +17,7 @@ const persistConfig = {
 const rootReducer = combineReducers({
   [baseQueryApi.reducerPath]: baseQueryApi.reducer,
   // writer: WriterReducer,
-  // auth: authReducer,
+  auth: authReducer,
   // cart: cartReducer,
 });
 

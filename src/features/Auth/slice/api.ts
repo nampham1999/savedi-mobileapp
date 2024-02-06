@@ -1,4 +1,4 @@
-import { baseQueryApi as api } from '@/store/baseQueryApi';
+import { baseQueryApi as api } from '../../../store/baseQueryApi';
 import {
   AuthResponse,
   DataLogin,

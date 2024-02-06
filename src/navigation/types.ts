@@ -1,5 +1,6 @@
 export type AuthStackParams = {
   Login: undefined;
+  Otp: undefined;
 };
 
 export type AppStackParams = {

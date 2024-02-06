@@ -9,7 +9,7 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "lib": ["es6"],
-    "moduleResolution": "bundler",
+    "moduleResolution": "Node",
     "useUnknownInCatchVariables": false,
     "noEmit": true,
     "strict": true,

@@ -1,24 +1,4 @@
-// /**
-//  * Sample React Native App
-//  * https://github.com/facebook/react-native
-//  *
-//  * @format
-//  */
 
-// import React from 'react';
-// import {Text, View} from 'react-native';
-
-// const Login=()=>  {
-//   return (
-//     <View style={{backgroundColor:'red',flex:1}}>
-//       <Text>Nam</Text>
-//     </View>
-//   );
-// }
-
-// export default Login;
-
-// import { Icons, Images } from '@/assets';
 import Button from '../../../components/Button';
 import { SafeContainer } from '../../../components/Container';
 import Input from '../../../components/Input';
@@ -116,9 +96,9 @@ const Login = () => {
 
         <Button
           rounded
-          onPress={()=>{}}
+          onPress={()=>navigate('Otp')}
           text={'Đăng nhập'}
-          disabled={!isValid || !isDirty}
+          // disabled={!isValid || !isDirty}
           // loading={isLoading}
         />
 
